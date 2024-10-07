@@ -1,0 +1,40 @@
+# Папка с собранными файлами (output)
+dist/
+build/
+
+# Временные файлы и кеши
+.temp/
+.cache/
+
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файлы конфигурации операционной системы
+.DS_Store
+Thumbs.db
+
+# Папка node_modules с зависимостями
+node_modules/
+
+# Файлы окружения и конфигурации
+.env
+.env.local
+.env.*.local
+
+# Gulp-generated файловая структура
+gulpfile.js
+gulpfile.babel.js
+
+# Папка с результатами сборки (если указана как output для сборки)
+public/
+assets/
+
+# Бандлы и сгенерированные файлы
+*.bundle.js
+*.min.js
+*.min.css
+
+# Карты источников
+*.map
